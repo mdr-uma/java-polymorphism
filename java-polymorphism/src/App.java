@@ -13,6 +13,13 @@ class Robin extends Bird{
 	
 }
 
+//polymorphism in action
+class Pelican extends Bird{
+	public void sing() {
+		System.out.println("kwah kwah kwah");
+	}
+}
+
 public class App {
 	public static void main(String[] args) {
 		Bird b = new Bird();
