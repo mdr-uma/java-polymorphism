@@ -8,6 +8,11 @@ class Bird {
 	}
 }
 
+//inheritance in action
+class Robin extends Bird{
+	
+}
+
 public class App {
 	public static void main(String[] args) {
 		Bird b = new Bird();
