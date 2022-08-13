@@ -15,6 +15,8 @@ class Robin extends Bird{
 
 //polymorphism in action
 class Pelican extends Bird{
+	/* important note: if the sing method below will have a parameter like sing(String song), 
+	it will display the sing method from a Bird class because it has to be same forms. */
 	public void sing() {
 		System.out.println("kwah kwah kwah");
 	}
