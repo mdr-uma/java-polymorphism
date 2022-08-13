@@ -27,5 +27,8 @@ public class App {
 		
 		Robin r = new Robin();
 		r.sing();
+		
+		Pelican p = new Pelican();
+		p.sing();
 	}
 }
